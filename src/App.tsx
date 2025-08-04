@@ -28,8 +28,8 @@ const MyApp: FC = () => {
 
     return (
         <div className={classes.container}>
-            <h1>{i18n.t('Hello {{name}}', { name: data?.me?.name })}</h1>
-            <h3>{i18n.t('Welcome to DHIS2 with TypeScript!')}</h3>
+            <h1>{i18n.t('Olá Sr.{{name}}', { name: data?.me?.name })}</h1>
+            <h3>{i18n.t('Benvindo ao DHIS2 com TypeScript!')}</h3>
         </div>
     )
 }
