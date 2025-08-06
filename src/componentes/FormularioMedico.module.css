@@ -1,0 +1,24 @@
+/* FormularioMedico.css */
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.imagem img {
+    width: 250px;
+    height: auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulario h2 {
+    color: green;
+}

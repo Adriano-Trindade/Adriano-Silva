@@ -2,6 +2,14 @@ import { useDataQuery } from '@dhis2/app-runtime'
 import i18n from '@dhis2/d2-i18n'
 import React, { FC } from 'react'
 import classes from './App.module.css'
+import { Pagination } from "@dhis2/ui";
+import { Menu } from './componentes/Menu';
+import { Route, Routes } from 'react-router-dom';
+import { AppRoutes } from './componentes/appRoutes';
+import Rodape from './componentes/rodopé';
+
+
+
 
 interface QueryResults {
     me: {
@@ -28,9 +36,13 @@ const MyApp: FC = () => {
 
     return (
         <div className={classes.container}>
-            <h1>{i18n.t('Olá Sr.{{name}}', { name: data?.me?.name })}</h1>
-            <h3>{i18n.t('Benvindo ao DHIS2 com TypeScript!')}</h3>
+        
+            <AppRoutes />
+            <Rodape />
+            
         </div>
+
+
     )
 }
 
