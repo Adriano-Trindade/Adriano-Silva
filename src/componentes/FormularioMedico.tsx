@@ -17,12 +17,12 @@ export default function FormularioMedico() {
                     <input type="text" />
                 </label>
                 <p></p>
-                <label>
+                <label >
                     Apelido:
                     <input type="text" />
                 </label>
                  <p></p>
-                <button>Salvar</button>
+                <button style={{ textAlign: 'center', color: 'green' }}>Salvar</button>
             </div>
         </div>      
     );
