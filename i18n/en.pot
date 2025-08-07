@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2025-08-07T08:54:28.758Z\n"
-"PO-Revision-Date: 2025-08-07T08:54:28.760Z\n"
+"POT-Creation-Date: 2025-08-07T11:14:20.885Z\n"
+"PO-Revision-Date: 2025-08-07T11:14:20.886Z\n"
 
 msgid "Seja Bem-vindo"
 msgstr "Seja Bem-vindo"
@@ -16,15 +16,3 @@ msgstr "ERROR"
 
 msgid "Loading..."
 msgstr "Loading..."
-
-msgid "ID"
-msgstr "ID"
-
-msgid "Nome"
-msgstr "Nome"
-
-msgid "Tipo"
-msgstr "Tipo"
-
-msgid "Opções"
-msgstr "Opções"
